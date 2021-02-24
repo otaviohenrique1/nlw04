@@ -52,6 +52,16 @@
   transition: 0.2s;
 }
 
-.countdownButton:hover {
+.countdownButton {
   background: var(--blue-dark);
+}
+
+.countdownButtonActive {
+  background-color: var(--white);
+  color: var(--title);
+}
+
+.countdownButtonActive {
+  background: var(--red);
+  color: var(--white);
 }
